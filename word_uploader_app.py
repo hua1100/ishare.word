@@ -175,11 +175,7 @@ st.markdown(FLAT_DESIGN_CSS, unsafe_allow_html=True)
 col_header_L, col_header_R = st.columns([2, 1])
 with col_header_L:
     st.title("iShare Word 上稿助手")
-    st.markdown("""
-    <div style="margin-top: -1rem; margin-bottom: 2rem; color: #6B7280; font-size: 1.2rem; font-weight: 500;">
-    簡潔、自信、完美保留 Word 格式。
-    </div>
-    """, unsafe_allow_html=True)
+
 
 # --- Settings & Input Section ---
 with st.container():
